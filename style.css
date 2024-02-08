@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap')
+
+/*! base css starts */
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+/*! base css ends */
+
+  
+
+/*! navbar css starts */
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Electrolize", sans-serif;
+}
+
+
+.navbar{
+     background-color: black;
+     height: 60px;
+     color: white;
+     position: sticky;
+     top: 0;
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+
+}
+.logo{
+    color: rgb(255, 70, 70);
+    font-family: "Electrolize", sans-serif;
+    font-size: 30px;
+}
+
+.menu-container{
+    
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+
+}
+.menu-list-item{
+    cursor: pointer;
+}
+.menu-list-item:hover{
+    font-weight: bold;
+}
+.menu-list-item.active{
+    font-weight: bold;
+}
+.profile-container{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.toggle-icon{
+    color: goldenrod;
+}
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+}
+/*! navbar css ends */
+
+
+/*! sidebar css starts */
+
+.sidebar{
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*! sidebar css ends */
